@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codec Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1>Robot on  Mars</h1>
+        </header>
+
+        <main class="main">
+            <div class="components">
+                <div class="table">
+                    <table>
+                        <tr>
+                            <td>What is the dimension of x axis of the plateau?</td>
+                            <td><input type="text" id="sizex" name="sizex" placeholder="3, 5?"></td>
+                        </tr>
+                        <tr>
+                            <td>What is the dimension of y axis of the plateau?</td>
+                            <td><input type="text" id="sizey" name="sizey" placeholder="4, 8?"></td>
+                        </tr>
+                        <tr>
+                            <td>What are the commands for the robot? R: right, L: left and F: forward</td>
+                            <td><input type="text" id="commands" name="commands" placeholder="RLF"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="button">
+                    <button id="button">Move</button>
+                </div>
+                <div class="result">
+                    <h2 id="result"></h2>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+</html>
