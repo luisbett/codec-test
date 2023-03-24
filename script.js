@@ -68,8 +68,6 @@ function calculateRobotMoving() {
             }
 
         }
-
-        console.log(robot.positionX, robot.positionY, robot.facing)
         
     }
 
