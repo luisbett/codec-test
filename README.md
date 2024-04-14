@@ -1,7 +1,9 @@
 # codec-test
-An app that receives a series of commands and simulates a robot's movement on Mars, displaying its final position.
+
+An application that receives a series of commands and simulates a robot's movement on Mars, displaying its final position, built using Javascript.
 
 ## Test Description
+
 You need to develop a robot that will navigate on Mars terrain.
 The input of the app will be a series of commands to move the robot on the plateau. Mars plateau is a grid defined by the initial input of the app, such as 5x5, 3x4, etc.
 The second input line will be a string containing multiple commands as described below:
