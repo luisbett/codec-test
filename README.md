@@ -1,5 +1,5 @@
 # codec-test
-Repository used to save the codec test code
+An app that receives a series of commands and simulates a robot's movement on Mars, displaying its final position.
 
 ## Test Description
 You need to develop a robot that will navigate on Mars terrain.
