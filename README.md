@@ -1,4 +1,4 @@
-# codec-test
+# Codec Test
 
 A front-end application designed to receive a series of commands and simulate a robot's movement on Mars, displaying its final position, built using JavaScript, HTML, and CSS.
 
